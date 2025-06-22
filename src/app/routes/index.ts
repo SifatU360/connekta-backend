@@ -12,14 +12,15 @@ import { AuthRoutes } from '../modules/Auth/auth.route';
 // import { semesterRegistrationRoutes } from '../modules/SemesterRegistration/semesterRegistration.route';
 // import { StudentRoutes } from '../modules/Student/student.route';
 // import { UserRoutes } from '../modules/User/user.route';
+import aiRoutes from "../modules/AI/ai.route"
 
 const router = Router();
 
 const moduleRoutes = [
-//   {
-//     path: '/users',
-//     route: UserRoutes,
-//   },
+  {
+    path: '/ai',
+    route: aiRoutes,
+  },
 //   {
 //     path: '/students',
 //     route: StudentRoutes,
